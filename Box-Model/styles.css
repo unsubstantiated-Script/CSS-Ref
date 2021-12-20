@@ -1,0 +1,27 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 40px;
+}
+
+.box-one {
+	height: 100px;
+	width: 100px;
+	background: pink;
+	padding: 20px;
+	border: 15px solid purple;
+	margin: 10px;
+	/* makes the box the size including padding and border size */
+	box-sizing: border-box;
+}
+
+/* in the box model, margin of the larger is used between items */
+
+.box-two {
+	height: 100px;
+	width: 100px;
+	background: skyblue;
+	padding: 20px;
+	border: 15px solid lightgreen;
+	margin: 10px;
+}
