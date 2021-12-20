@@ -1,0 +1,35 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
+.parent {
+	background-color: blue;
+	padding: 10px;
+	margin: 10px;
+	position: relative;
+}
+
+.box-one {
+	background-color: green;
+	padding: 10px;
+	/* Allows you to adjust div vs. static which doesn't. Will overflow because item is out of document flow */
+	/* position: relative; */
+	/* completely removes from document flow unless parent is relative */
+	position: absolute;
+	/* Removes document from flow no matter what scrolling has no effect */
+	/* position: fixed */
+	top: 10px;
+	left: 10px;
+}
+
+.box-two {
+	background-color: orange;
+	padding: 10px;
+}
+
+.box-three {
+	background-color: pink;
+	padding: 10px;
+}
